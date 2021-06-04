@@ -3,29 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Pandalbakeri Bakery</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
     <div class="navbar">
       <div class="container">
-        <a href="index.html">
-          <img src="asset/logo.svg" alt="Bakery Logo">
-        </a>
+        <a href="index.html"><img class="logo" src="asset/logo.svg" alt="Bakery Logo"></a>
+
+        <img id="mobile-cta" class="mobile-menu" src="asset/menu.svg" alt="Open Navigation">
+
         <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="asset/exit.svg" alt="Close Navigation">
+
           <ul class="primary-nav">
             <li class="current"> <a href="#">Home</a> </li>
-            <li> <a href="#">Recipe</a> </li>
-            <li> <a href="#">Blog</a> </li>
-            <li> <a href="#">About Us</a> </li>
-            <li> <a href="#">Contact us</a> </li>
+            <li> <a href="recipe.html">Recipe</a> </li>
+            <li> <a href="blog.html">Blog</a> </li>
+            <li> <a href="about.html">About Us</a> </li>
+            <li> <a href="contact">Contact us</a> </li>
           </ul>
 
           <ul class="secondary-nav">
-            <li class="search"> <a href="#">Search</a> </li>
+            <input type="text" placeholder="Search">
           </ul>
         </nav>
       </div>
     </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-column-container">
+          <p>Hello this is content</p>
+        </div>
+      </div>
+    </section>
+
+
 
   </body>
 </html>
