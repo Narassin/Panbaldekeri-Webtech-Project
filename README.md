@@ -30,7 +30,7 @@ For any website, logo and its special taglines are very important to represent t
 | ---  | ------------ |
 | Nur Batrisyia Balqis Binti Mohamad Basri <br> (1810948)  | <br> <ul> <li>Pages: About Us</li> <br> <li>Web Element: Logo, link, img, textbox </li> <br> <li>Styling the page all with CSS file</li> <br> </ul>|  
 | Ridia Kashmeri <br> (1913126)                            | <br> <ul> <li>Pages: HomePage,(SubPages-BreadPage,CookiePage,CakePage)</li> <br> <li>Web Elements: Logo,Links</li> <br> <li>Added subpages with HomePage with links</li> <br> <li>Added styling in all the subpages including HomePage</li> </ul>|
-| Ahmad Nuruddin bin Muksalmina <br> (1919047)             | <br> <ul> <li>First item</li> <br> <li>Second item</li> <br> <li>Third item</li> <br> <li>Fourth item</li> </ul>|
+| Ahmad Nuruddin bin Muksalmina <br> (1919047)             | <br> <ul> <li>Pages: Blogs, Subblog entry</li> <br> <li>Standardized the Responsive Navbar</li> <br> <li>Merge the css</li> <br> <li>Arrange the directory</li> </ul>|
 | Muhammad Irfan Danial Bin Baharim <br> (1927331)         | <br> <ul> <li>Pages: Contact,Faq </li> <br> <li>Web element: linked button,map,form,dropdown </li> <br> <li>CSS for styling border</li> <br> <li>JavaScript for creating form</li> </ul>|
 | Muhammad Haikal Bin Razali <br> (1921805)                | <br> <ul> <li>First item</li> <br> <li>Second item</li> <br> <li>Third item</li> <br> <li>Fourth item</li> </ul>| <br> <br>
 
@@ -44,6 +44,8 @@ For any website, logo and its special taglines are very important to represent t
 <li>https://codepen.io/RajRajeshDn/pen/QRjwpG</li> 
 <li>https://github.com/codingmarket07/Contact-us-form-validation-Using-Javascript-M8</li>
 <li>https://drive.google.com/drive/folders/1z3rdC96JXFnfPvYqYBfHEzkZb34qKhDZ</li>
+<li>https://colorswall.com/palette/5661/</li>
+<li>http://www.corelangs.com/css/box/image-shadow.html</li>
 </ul>
 
 -------------------------------------------------------------------------END OF README REPORT ----------------------------------------------------------------------------------
