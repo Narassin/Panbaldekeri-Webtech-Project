@@ -17,15 +17,26 @@ img[class=logo]{
     width: 40%;
   }
 
+
+}
+nav{
+  display: none;
+}
+
+a{
+  color: #4444444;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar{
   background: white;
   padding: 1em;
-
-
-}
-
-nav{
-  /* display: none; */
+  border-bottom: 1px solid black;
 }
 
 .container{
@@ -61,18 +72,12 @@ section{
 
 }
 
-#error_message{
-  margin-bottom: 20px;
-  padding: 0px;
-  background: #fE8b8e;
-  text-align: center;
-  font-size: 14px;
-  transition: all 0.5s ease;
+h2{
+  text-align:justify;
 }
-
 .box{
-  position: static;
-  width: 70%;
+  position: relative;
+  width: 100%;
   border-style:solid;
   margin: 10 px;
   text-align: left;
@@ -80,14 +85,16 @@ section{
   padding-left: 5em;
   padding-top: 2em;
   padding-bottom: 3em;
+  background: #c2c3c4;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
 
 .border{
-  position: static;
-  width: 70%;
+  position: relative;
+  width: 50%;
 
   margin: 10 px;
-  text-align: left;
+  text-align: center;
   padding-right: 10em;
   padding-left: 5em;
   padding-top: 2em;
@@ -102,34 +109,45 @@ label{
   margin-bottom: 10px;
 }
 
-.box input[type="text"], textarea[type="msg"] {
+.box input[type="text"], textarea[type="message"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
-  display: inline-block;
+  display:inline-block;
   border-color: inherit;
   background: #f1f1f1;
 }
 
-.box input[type="text"]:focus, textarea[type="msg"]:focus {
+.box input[type="text"]:focus, textarea[type= "message"]:focus {
   background-color: #FFFFFF;
   outline-style: solid;
 }
 
 
 .btn input[type="submit"]{
-  border: 0;
-  margin-top: 15 px;
-  padding: 10 px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  width: 100%;
-  background: #f2e70c;
-  color: #000000;
-  text-transform: uppercase;
-  letter-spacing: 5 px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
   font-weight: bold;
-  border-radius: 25 px;
+  border-radius: 45 px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  transition: .5s;
   cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
 
 .social-menu ul {
@@ -145,6 +163,7 @@ label{
 .social-menu ul li {
     list-style: none;
     margin:  20px;
+    padding: 10px;
 }
 .social-menu ul li .fa {
     color: #000000;
@@ -183,3 +202,7 @@ label{
     background-color: #6EF83A;
 }
 
+.container{
+  display: flex;
+  place-content: space-between;
+}
