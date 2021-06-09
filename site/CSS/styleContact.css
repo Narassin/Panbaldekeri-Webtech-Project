@@ -61,11 +61,10 @@ section{
 
 }
 
-.error_message{
-
+#error_message{
   margin-bottom: 20px;
-  padding: 10px;
-  background: #FE8B8E;
+  padding: 0px;
+  background: #fE8b8e;
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
@@ -99,7 +98,11 @@ label{
     font-family: 'Montserrat', sans-serif;
 }
 
-input[type=text], textarea[type= msg] {
+.box input_field{
+  margin-bottom: 10px;
+}
+
+.box input[type="text"], textarea[type="msg"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -108,21 +111,75 @@ input[type=text], textarea[type= msg] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, textarea[type=msg]:focus {
+.box input[type="text"]:focus, textarea[type="msg"]:focus {
   background-color: #FFFFFF;
   outline-style: solid;
 }
 
-.btn input[type=btn]{
-  border: 0 px;
+
+.btn input[type="submit"]{
+  border: 0;
   margin-top: 15 px;
   padding: 10 px;
+  text-align: center;
   width: 100%;
-  background: #fece0c;
-  color: #777575;
+  background: #f2e70c;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 5 px;
   font-weight: bold;
   border-radius: 25 px;
   cursor: pointer;
 }
+
+.social-menu ul {
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin:  20px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative:;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #6EF83A;
+}
+
