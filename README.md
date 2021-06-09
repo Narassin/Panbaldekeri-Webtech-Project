@@ -44,14 +44,11 @@ Ahmad Nuruddin bin Muksalmina
 <li>Fourth item</li>
 </ul>
 
-| Nur Batrisya Balqis Binti Mohammad Basri | Contribution |
-| --- | --- |
-<ul>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-<li>Fourth item</li>
-</ul>
+| Name | Contribution |
+| ---  | ------------ |
+|  Nur Batrisyia Balqis <br> (18109948)  | <ul> <li>First item</li> <br> <li>Second item</li> <br> <li>Third item</li> <br> <li>Fourth item</li> </ul>|     
+
+
 Ridia Kashmeri<br>
 <ul>
 <li>Pages: HomePage,(SubPages-BreadPage,CookiePage,CakePage)</li>
@@ -59,6 +56,5 @@ Ridia Kashmeri<br>
 <li>Added subpages with HomePage with links</li>
 <li>Added styling in all the subpages including HomePage</li>
 </ul>
-
 
 
