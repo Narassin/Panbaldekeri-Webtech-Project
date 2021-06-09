@@ -13,7 +13,8 @@ Ridia Kashmeri (1913126)<br>
          For any website, logo and its special taglines are very important to represent the motivation and encouragement of that website in one word or in one line. Our website which is carrying the logo namely PANBALDEKRI refers to a special bonding between 5 friends who have started their journey to make this website. This name came from the broken names of 5 friends- Pandan, N,Balbat,Deku,Ri. Their love and passion for bakery which works as the inspiration, motivation and encouragement for this website. As a result the tagline of the website became like this “Love Our Bakery”. While thinking about this tagline, we consider the sync between the logo name and the tagline to make it interesting. Likely people can find our website interested by saying
 “ PANBALDEKRI, Love Our Bakery”<br>
 2. Project Sitemap 
-<insert sitemap)<br>
+<insert sitemap)![Webtech_Project Part 1](https://user-images.githubusercontent.com/85051702/121382637-62c16780-c979-11eb-821f-bb904b598ea1.png)
+<br>
 3. Group Contributions
 Each of the team members prepared 4 web pages for the project as shown in the
 following table.
