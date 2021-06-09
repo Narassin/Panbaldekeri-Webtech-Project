@@ -46,7 +46,10 @@ Ahmad Nuruddin bin Muksalmina
 
 | Name | Contribution |
 | ---  | ------------ |
-|  Nur Batrisyia Balqis <br> (18109948)  | <ul> <li>First item</li> <br> <li>Second item</li> <br> <li>Third item</li> <br> <li>Fourth item</li> </ul>|     
+|  Nur Batrisyia Balqis <br> (1810948)  | <br> <ul> <li>First item</li> <br> <li>Second item</li> <br> <li>Third item</li> <br> <li>Fourth item</li> </ul>|  
+|  Ridia Kashmeri <br> (1913126)        | <br> <ul> <li>Pages: HomePage,(SubPages-BreadPage,CookiePage,CakePage)</li> <br> <li>Web Elements: Logo,Links</li> <br> <li>Added subpages with HomePage with links</li> <br> <li>Added styling in all the subpages including HomePage</li> </ul>|
+|                                       |                                                             |
+
 
 
 Ridia Kashmeri<br>
