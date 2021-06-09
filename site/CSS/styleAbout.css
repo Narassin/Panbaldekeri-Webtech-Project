@@ -95,11 +95,10 @@ section{
   padding-left: 5em;
   padding-top: 5em;
   padding-bottom: 5em;
-  background: url(asset/images/background.jpg);
+  background-image: url('asset/images/background.jpg');
   background-repeat: no-repeat;
   background-size: auto;
   color: Black;
-  
 }
 
 .heroone{
@@ -187,5 +186,5 @@ div.desc {
   top: 88%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 70%;
 }
