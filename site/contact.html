@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Pandalbakeri Bakery</title>
     <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script scr="Contact.js"></script>
 
   </head>
@@ -39,9 +40,9 @@
   <h2>Contact Us</h2>
 
   <div class="box">
-  <div class="error_message"></div>
-  <form id="myform" onsubmit="return-validation()">
+  <div id="error_message"></div>
 
+  <form action="" id="myform" onsubmit="return validation()">
       <div class= "input_field">
         <label for="email">Email: </label>
         <input type="text" id="email" name="email" value=""  placeholder="Your Email" >
@@ -64,17 +65,15 @@
 
 
     <div class= "input_field">
-        <label for="msg"> Message:</label>
-        <textarea type="msg" id="msg" name="msg" placeholder="Kindly ask us if you have any question" rows="5" cols="30"></textarea>
+        <label for="message"> Message:</label>
+        <textarea type="message" id="message" name="message" placeholder="Kindly ask us if you have any question" rows="5" cols="30"></textarea>
     </div>
 
-      <div class="btn">
-        <button type="Submit" name="submit">Submit</button>
+    <div class="btn">
+     <input type="submit">
       </div>
-
-    </form>
 </div>
-
+</form>
 <br>
 
 <h2>Address</h2>
@@ -86,24 +85,24 @@
 <br>
 
   <h2>Reach Us</h2>
-  <div class="box">
-    <h4>panbaldekri@gmail.com</h4>
-    <h4>PaNBalDekRi Enterprise</h4>
-    <h4>Panbal_Dekri</h4>
-</div>
+
+
+  <div class="box"> </div>
+
+<div class="social-menu">
+  <ul>
+    <li><a href="https://www.facebook.com/irfandanial999"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/irfn_daniall"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/irfn_daniall/"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="mailto:1212pandan@gmail.com"><i class="fa fa-envelope"></i></a></li>
+  </ul>
+
+
 
 <br>
-
 </div>
 
-    <div class="footer">
-          <div class="container">
-              <address style="float:left; font-style:normal;">
-                 Do email us at <a href="mailto:1212pandan@gmail,com">
-                 panbaldekri@gmail.com</a><br>
-              </address>
-              </div>
-            </div>
+</div>
 
   </body>
 </html>
