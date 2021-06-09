@@ -43,7 +43,9 @@ Ahmad Nuruddin bin Muksalmina
 <li>Third item</li>
 <li>Fourth item</li>
 </ul>
-Nur Batrisya Balqis Binti Mohammad Basri
+
+| Nur Batrisya Balqis Binti Mohammad Basri | Contribution |
+| --- | --- |
 <ul>
 <li>First item</li>
 <li>Second item</li>
