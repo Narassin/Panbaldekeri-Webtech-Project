@@ -66,6 +66,12 @@ Ridia Kashmeri<br>
 4. Use of third party resources <br>
 
 6. References <br>
-
+<ul>
+<li>https://www.w3schools.com/ </li>
+<li>https://getbento.com/faqs/</li>
+<li>https://www.google.com/search?q=faont+awesome&rlz=1C1PRFI_enMY884MY887&oq=faont+awesome&aqs=chrome..69i57j0i10i433l2j0i10l7.8957j0j1&sourceid=chrome&ie=UTF-8</li>
+<li>https://codepen.io/RajRajeshDn/pen/QRjwpG</li> 
+<li>https://github.com/codingmarket07/Contact-us-form-validation-Using-Javascript-M8</li>
+</ul>
 
 -------------------------------------------------------------------------END OF README REPORT ----------------------------------------------------------------------------------
