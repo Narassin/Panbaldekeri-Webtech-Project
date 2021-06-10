@@ -8,7 +8,7 @@ function validate(){
   error_message.style.padding = "10px";
 
   var text;
-  if(name.length < 5){
+  if(name.length < 2){
     text = "Please Enter valid Name";
     error_message.innerHTML = text;
     return false;
