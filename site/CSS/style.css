@@ -221,8 +221,8 @@ h5, h3{
 img.entry{
   width: 99%;
   border: 2px solid #006BD6;
-  border-top-left-radius:  20%;
-  border-top-right-radius: 20%;
+  border-top-left-radius:  1em;
+  border-top-right-radius: 1em;
 }
 
 li.entry{
