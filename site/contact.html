@@ -1,122 +1,143 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Pandalbakeri Bakery</title>
-    <link rel="stylesheet" href="CSS/styleContact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="Contact.js"></script>
 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Pandalbakeri Bakery</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="Contact.js"></script>
 
-    <!-- navigation bar -->
-        <div class="navbar">
-          <div class="container">
-            <a href="index.html"><img class="logo" src="asset/Icon/logo.svg" alt="Bakery Logo"></a>
+</head>
 
-            <img id="mobile-cta" class="mobile-menu" src="asset/Icon/menu.svg" alt="Open Navigation">
+<body>
 
-            <nav>
-              <img id="mobile-exit" class="mobile-menu-exit" src="asset/Icon/exit.svg" alt="Close Navigation">
+  <!-- navigation bar -->
+  <div class="navbar">
+    <div class="container">
+      <a href="index.html"><img class="logo" src="asset/Icon/logo.svg" alt="Bakery Logo"></a>
 
-              <ul class="primary-nav">
-                <li> <a class="nav" href="index.html">Home</a> </li>
-                <li> <a class="nav" href="recipe.html">Recipe</a> </li>
-                <li class="current"> <a class="nav" href="#">Blog</a> </li>
-                <li> <a class="nav" href="about.html">About Us</a> </li>
-                <li> <a class="nav" href="contact.html">Contact us</a> </li>
-              </ul>
-            </nav>
-          </div>
+      <img id="mobile-cta" class="mobile-menu" src="asset/Icon/menu.svg" alt="Open Navigation">
+
+      <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="asset/Icon/exit.svg" alt="Close Navigation">
+
+        <ul class="primary-nav">
+          <li> <a class="nav" href="index.html">Home</a> </li>
+          <li> <a class="nav" href="recipe.html">Recipe</a> </li>
+          <li> <a class="nav" href="blog.html">Blog</a> </li>
+          <li> <a class="nav" href="about.html">About Us</a> </li>
+          <li class="current"> <a class="nav" href="#">Contact us</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="border">
+
+
+    <h2>Contact Us</h2>
+
+    <div class="box">
+      <div id="error_message"></div>
+
+      <form action="" id="myform" onsubmit="return validate()">
+        <div class="input_field">
+          <label for="email">Email: </label>
+          <input type="text" id="email" name="email" value="" placeholder="Your Email">
         </div>
 
-<div class="border">
 
 
-  <h2>Contact Us</h2>
+        <div class="input_field">
+          <label for="name">Full Name: </label>
+          <input type="text" id="name" name="name" value="" placeholder="Your Name">
+        </div>
 
-  <div class="box">
-  <div id="error_message"></div>
 
-  <form action="" id="myform" onsubmit="return validate()">
-      <div class= "input_field">
-        <label for="email">Email: </label>
-        <input type="text" id="email" name="email" value=""  placeholder="Your Email" >
+
+        <div class="input_field">
+          <label for="phone">Phone No: </label>
+          <input type="text" id="phone" name="phone" value="" placeholder="Your Phone No">
+        </div>
+
+
+
+        <div class="input_field">
+          <label for="message"> Message:</label>
+          <textarea type="message" id="message" name="message" placeholder="Kindly ask us if you have any question" rows="5" cols="30"></textarea>
+        </div>
+
+        <div class="btn">
+          <input type="submit">
+        </div>
+    </div>
+    </form>
+    <br>
+
+    <h2>Address</h2>
+    <div class="box">
+      <h4>No 143,Jalan Maharajalela,<br> Kuala Lumpur,<br>50150 <br> Wilayah Persekutuan,<br>Malaysia</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.841453683923!2d101.70035981426287!3d3.1365490541058803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49decaa65089%3A0x3edbe17e06958649!2s143%2C%20Jln%20Maharajalela%2C%20Kampung%20Attap%2C%2050150%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1623033147790!5m2!1sen!2smy"
+        width="500" height="250" style="border:5;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <br>
+
+
+    <h2>Reach Us</h2>
+    <div class="box">
+
+      <ul>
+        <li>
+          <h4>Twitter: Panbal_Dekri</h4>
+        </li>
+        <li>
+          <h4>Instagram: @panbal_dekri</h4>
+        </li>
+        <li>
+          <h4>Facebook: PaNBalDekRi Enterprise</h4>
+        </li>
+        <li>
+          <h4>Gmail: panbaldekri@gmail.com</h4>
+        </li>
+      </ul>
+
+      <br>
+      <br>
+
+      <div class="social-menu">
+        <ul class>
+          <li><a href="https://www.facebook.com/irfandanial999"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/irfn_daniall"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/irfn_daniall/"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="mailto:1212pandan@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+
       </div>
 
 
-
-      <div class= "input_field">
-        <label for="name">Full Name: </label>
-        <input type="text" id="name" name="name" value=""  placeholder="Your Name" >
     </div>
 
-
-
-    <div class= "input_field" >
-      <label for="phone">Phone No: </label>
-      <input type="text" id="phone" name="phone" value=""  placeholder="Your Phone No" >
-    </div>
-
-
-
-    <div class= "input_field">
-        <label for="message"> Message:</label>
-        <textarea type="message" id="message" name="message" placeholder="Kindly ask us if you have any question" rows="5" cols="30"></textarea>
-    </div>
-
-    <div class="btn">
-     <input type="submit">
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="contact">
+        <address style="float:left; font-style:normal;">
+          Do email us at <a href="mailto:bbalqis14@gmail.com">
+            panbaldekri@gmail.com</a><br>
       </div>
-</div>
-</form>
-<br>
+      <div>
+        <ul>
+          <li><img class="social-btn" src="asset/Icon/instagram.png" alt="Instagram"></li>
+          <li><img class="social-btn" src="asset/Icon/facebook.png" alt="Facebook"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="nav.js"></script>
+</body>
 
-<h2>Address</h2>
-<div class="box">
-    <h4>No 143,Jalan Maharajalela,<br> Kuala Lumpur,<br>50150 <br> Wilayah Persekutuan,<br>Malaysia</h4>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.841453683923!2d101.70035981426287!3d3.1365490541058803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49decaa65089%3A0x3edbe17e06958649!2s143%2C%20Jln%20Maharajalela%2C%20Kampung%20Attap%2C%2050150%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1623033147790!5m2!1sen!2smy" width="500" height="250" style="border:5;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-
-<br>
-
-
-  <h2>Reach Us</h2>
-<div class="box">
-
-  <ul>
-    <li><h4>Twitter:   Panbal_Dekri</h4></li>
-    <li><h4>Instagram: @panbal_dekri</h4></li>
-    <li><h4>Facebook:  PaNBalDekRi Enterprise</h4></li>
-    <li><h4>Gmail:     panbaldekri@gmail.com</h4></li>
-  </ul>
-
-<br>
-<br>
-
-<div class="social-menu">
-  <ul>
-    <li><a href="https://www.facebook.com/irfandanial999"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com/irfn_daniall"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="https://www.instagram.com/irfn_daniall/"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="mailto:1212pandan@gmail.com"><i class="fa fa-envelope"></i></a></li>
-  </ul>
-
-</div>
-
-
-</div>
-
-</div>
-<div class="footer">
-      <div class="container">
-          <address style="float:left; font-style:normal;">
-             Do email us at <a href="mailto:1212pandan@gmail,com">
-             panbaldekri@gmail.com</a><br>
-          </address>
-          </div>
-        </div>
-</div>
-  </body>
 </html>
