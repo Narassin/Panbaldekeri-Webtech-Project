@@ -36,46 +36,124 @@ hr {
   border: none;
 }
 
-.footer{
-  background: white;
-  padding: 2em 1em;
-  border-top: 1px solid black;
+/* Navigation bar */
+img.logo {
+  width: 50px;
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 5px #222);
 }
 
+.navbar {
+  background: white;
+  padding: 1em;
+}
 
-/* Standardized navbar */
+nav {
+  display: none;
 
-img[class=logo]{
-    width: 30%;
-  }
+}
 
-  img[class=background]{
-      width: 100%;
+.container {
+  display: flex;
+  place-content: space-between;
+}
+
+.mobile-menu {
+  cursor: pointer;
+}
+
+nav.menu-btn {
+  display: block;
+}
+nav{
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+ul.primary-nav{
+  margin-top: 5em;
+}
+
+a.nav{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+a.nav :hover{
+  font-weight: bold;
+
+}
+
+.mobile-menu-exit{
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+/* media query change */
+/* if on pc */
+@media only screen and (min-width: 768px) {
+    .mobile-menu, .mobile-menu-exit{
+      display: none;
+    }
+    .navbar .container{
+      display: grid;
+      grid-template-columns: 180px auto;
+      justify-content: unset;
+    }
+    .navbar nav {
+      display: flex;
+      justify-content: space-between;
+      background: none;
+      position: unset;
       height: auto;
+      width: 100%
+      padding: 0;
     }
 
-nav{
-  display: none;
+    ul{
+      display: flex;
+    }
+
+    a.nav{
+      color: black;
+      font-size: 1em;
+      padding: .1em 1em;
+    }
+    ul.primary-nav{
+      margin: 0;
+    }
+
+    li.current a{
+      font-weight: bold;
+    }
+}
+/* if on mobile */
+
+
+a {
+  color: var(--secondaryc);
+  text-decoration: none;
+
 }
 
-a{
-  color: #4444444;
-}
-
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar{
-  background: white;
-  padding: 1em;
-  border-bottom: 1px solid black;
-}
-
-.mobile-menu{
-  cursor: pointer;
+section {
+  padding: 3em 2em;
 }
 
 /*Layout general*/
@@ -188,4 +266,16 @@ div.desc {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 90%;
+}
+
+/* footer */
+.footer{
+  background: var(--color2);
+  padding: 1em;
+  background: white;
+  border-top: 1px solid black;
+}
+.social-btn{
+   width: 40px;
+   display: flex;
 }
