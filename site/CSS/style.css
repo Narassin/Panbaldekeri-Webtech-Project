@@ -413,7 +413,9 @@ label{
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #6EF83A;
 }
-
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #F8E63A;
+}
 /* footer */
 .footer{
   background: var(--color2);
